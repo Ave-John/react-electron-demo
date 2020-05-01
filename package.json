@@ -1,15 +1,11 @@
 {
+  "homepage": "http://ave-john.github.io/react-electron-demo",
   "name": "sheduler_app",
   "version": "0.1.0",
   "private": true,
   "productName": "sheduler_app",
   "description": "Shedulern APP for Task",
   "author": "Ave",
-  "main": "public/electron.js",
-  "build": {
-    "appId": "sheduleTask"
-  },
-  "homepage": "./",
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
@@ -41,15 +37,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "set BROWSER=none && react-scripts start",
-    "start-electron": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
-    "build-electron": "mkdir build/electron && robocopy electron. build/electron",
-    "react-start": "react-scripts start",
-    "react-build": "react-scripts build",
-    "react-eject": "react-scripts eject",
-    "react-test": "react-scripts test",
-    "electron-build": "electron-builder",
-    "build": "npm run react-build && npm run electron-build",
+    "start": "react-scripts start",
+    "predeploy": "npm run react-build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -74,6 +64,7 @@
     "electron": "^8.2.4",
     "electron-builder": "^22.6.0",
     "electron-packager": "^14.2.1",
+    "gh-pages": "^2.2.0",
     "wait-on": "^4.0.2"
   }
 }
