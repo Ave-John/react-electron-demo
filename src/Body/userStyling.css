@@ -1,0 +1,18 @@
+.calenderBox {
+    width: 80% !important;
+    height: 100% !important;
+    margin-left: 15%;
+}
+
+.sideBox {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.BoxDiv {
+    margin-right: 0px !important;
+}
+
+.addDiv {
+    padding-left: 2% !important;
+}

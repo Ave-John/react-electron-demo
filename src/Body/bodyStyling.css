@@ -1,0 +1,33 @@
+.custom .p-scrollpanel-wrapper {
+    border-right: 9px solid #f4f4f4;
+}
+
+.custom .p-scrollpanel-bar {
+    background-color: #1976d2;
+    opacity: 1;
+    transition: background-color .3s;
+}
+
+.custom .p-scrollpanel-bar:hover {
+    background-color: #135ba1;
+}
+
+.createTaskMainDiv {
+    margin-right: 0px !important;
+}
+
+.midSeparator {
+    width: 0.3% !important;
+    padding: 0px !important;
+}
+
+.draggableContainerStyle {
+    border-width: 2px;
+    border-style: solid;
+    height: 5em;
+}
+
+.draggableElementStyle {
+    background-color: #116fbf;
+    color: #ffffff;
+}
