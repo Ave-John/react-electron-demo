@@ -24,7 +24,7 @@
     "electron-is-dev": "^1.2.0",
     "jquery": "^3.5.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "primeflex": "^1.0.0",
     "primeicons": "^2.0.0",
     "primereact": "^4.2.0",
