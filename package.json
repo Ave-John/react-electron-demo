@@ -62,7 +62,7 @@
   "devDependencies": {
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
     "concurrently": "^5.2.0",
-    "electron": "^8.2.4",
+    "electron": "^15.5.5",
     "electron-builder": "^22.6.0",
     "electron-packager": "^14.2.1",
     "gh-pages": "^2.2.0",
